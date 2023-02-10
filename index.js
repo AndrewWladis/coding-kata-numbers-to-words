@@ -19,7 +19,6 @@ function wordToNum(word) {
                 returnNum += (ones.indexOf(newWord[i].replace(/-hundred/g, '')) + 1) * 100;
             } else if (tens.includes(newWord[i])) {
                 returnNum += (tens.indexOf(newWord[i]) + 1) * 10;
-                console.log('this is being called')
             } else {
                 returnNum += ones.indexOf(newWord[i]) + 1;
             }
