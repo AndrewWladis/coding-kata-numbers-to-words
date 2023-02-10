@@ -60,8 +60,6 @@ function numToWord(num) {
     return resultArr.reverse().join(' ');
 }
 
-//change paramter number to whatever value you want
 console.log(numToWord(2319));
-
 //this reverses the function 🔄
-wordToNum(numToWord(2319))
+console.log(wordToNum('two-thousand three-hundred nineteen'))
